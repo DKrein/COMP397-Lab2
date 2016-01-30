@@ -11,12 +11,12 @@ function init() {
     main();
 }
 function gameLoop(event) {
-    helloLabel.rotation += 5;
+    helloLabel.rotation += 2;
     stage.update();
 }
 function main() {
     console.log("Game Started...");
-    helloLabel = new createjs.Text("Hello World!", "60px Consolas", "#000000");
+    helloLabel = new createjs.Text("IT WORKS!! DEPLOYED!", "60px Consolas", "#000000");
     helloLabel.regX = helloLabel.getMeasuredWidth() * 0.5;
     helloLabel.regY = helloLabel.getMeasuredHeight() * 0.5;
     helloLabel.x = 320;
